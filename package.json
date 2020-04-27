@@ -1,15 +1,35 @@
 {
-  "name": "EzLorem",
+  "name": "ezlorem",
   "version": "1.0.0",
-  "description": "a package for generate loem Ipsum for Persian and English Language",
-  "main": "index.js",
+  "description": "a package for generate lorem Ipsum for Persian and English Languages",
+  "main": "lorem.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parsa011/EzLorem.git"
+  },
+  "keywords": [
+    "lorem",
+    "lorem",
+    "ipsum",
+    "lorem",
+    "generator",
+    "lorem",
+    "ipsum",
+    "generator",
+    "generate",
+    "lorem",
+    "ezLorem"
+  ],
+  "author": "parsa mahmoudy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parsa011/EzLorem/issues"
+  },
+  "homepage": "https://github.com/parsa011/EzLorem#readme"
 }
