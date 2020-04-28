@@ -4,9 +4,11 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # Installation
 
-` npm i EzLorem --save `
+` npm i EzLorem `
 
 # how to use
+
+first we need to add lorem.js file to our document
 
 ```
 <scritp src="lorem.js"></script>
@@ -16,7 +18,29 @@ this is a lorem generator for designers . this library can generate for two lang
     });
 </script>
 ```
+for select an element for add lorem we have to use **ElSelect()** method to select object.
 
+many ways to use of  **ElSelect()** : 
+
+```
+var el = document.querySelectorAll('p.text'); //or querySelector or get...
+
+ElSelect(el).AddLorem({
+	options ...
+});
+
+ElSelect('p').AddLorem({
+	options ...
+});
+```
+*after select the element you can add your lorem text with **AddLorem()** and the options*
+
+another functions :
+```
+ElSelect('h2').EnLorem(); //this will add a full lorem ipsum 'english language'
+
+ElSelect('.text').FaLorem(); //this will add a full lorem ipsum 'Persian language'
+```
 # options
 
 __there is many options to use :__
