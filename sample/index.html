@@ -9,7 +9,9 @@
         <script src="../lib/lorem.js"></script>
         <script>
             ElSelect('.a').AddLorem({
-                words : 10
+                asHTML : true,
+                HtmlTag : 'p',
+                HtmlClasses : 'text-muted'
             });
         </script>
     </body>
