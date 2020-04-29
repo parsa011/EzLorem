@@ -2,6 +2,10 @@
 
 this is a lorem generator for designers . this library can generate for two languages : Persian and English :D
 
+# what is new ?
+
+1.1.6 : added .min file 
+
 # Installation
 
 ` npm i EzLorem `
