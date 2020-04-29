@@ -1,8 +1,10 @@
-# what is this
+# What is this
 
 this is a lorem generator for designers . this library can generate for two languages : Persian and English :D
 
-# what is new ?
+# What is new ?
+
+1.2.0 : New Feature , generate lorem with html attrubites (documents added)
 
 1.1.6 : added .min file 
 
@@ -10,7 +12,7 @@ this is a lorem generator for designers . this library can generate for two lang
 
 ` npm i EzLorem `
 
-# how to use
+# How to use
 
 first we need to add lorem.js file to our document
 
@@ -22,9 +24,9 @@ first we need to add lorem.js file to our document
     });
 </script>
 ```
-for select an element for add lorem we have to use **ElSelect()** method to select object.
+For select an element for add lorem we have to use **ElSelect()** method to select object.
 
-many ways to use of  **ElSelect()** : 
+Many ways to use of  **ElSelect()** : 
 
 ```
 var el = document.querySelectorAll('p.text'); //or querySelector or get...
@@ -37,15 +39,25 @@ ElSelect('p').AddLorem({
 	options ...
 });
 ```
-*after select the element you can add your lorem text with **AddLorem()** and the options*
+*After select the element you can add your lorem text with **AddLorem()** and the options*
 
-another functions :
+Another Functions :
 ```
 ElSelect('h2').EnLorem(); //this will add a full lorem ipsum 'english language'
 
 ElSelect('.text').FaLorem(); //this will add a full lorem ipsum 'Persian language'
 ```
-# options
+
+New Feature in 1.2.0 : 
+
+We can Generate lorem with Attributes . first we have to set **ezlorem** clas for element then set the attributes.
+```
+<p class="ezlorem" data-ezlang="fa" data-EzAsHtml="true" data-EzHtmlTag="" data-EzHtmlClasses=" " data-EzAddText=" " data-EzLetters=" " data-EzWords=" " data-EzParagraph=" "></p>
+```
+
+****The Attributes And Options Are Optional But One Of Generate Units Should Be Fill (letters,words,paragraph)****
+
+# Options
 
 __there is many options to use :__
 
