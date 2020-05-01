@@ -1,21 +1,84 @@
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>EzLorem</title>
-    </head>
-    <body>
-        <p class="a"></p>
-        <hr>
-        <p class="ezlorem" data-ezlang="en" data-ezwords="50"></p>
-        <script src="../lib/lorem.js"></script>
-        <script>
-            ElSelect('.a').AddLorem({
-                lang: 'en',
-                asHTML : true,
-                HtmlTag : 'p',
-                HtmlClasses : 'text-muted',
-                letters : 10
-            });
-        </script>
-    </body>
-</html>
+<head>
+    <meta charset="utf-8" />
+    <title>EzLorem</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family:  sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/ezlorem-Regulators.css">
+
+</head>
+
+<body>
+    <p class="a"></p>
+    <hr>
+    <p class="ezlorem" data-ezlang="en" data-ezwords="50"></p>
+    <hr>
+    <br><br>
+    <p class="ezlorem ezlorem-Regulators" data-ezlang="fa" data-ezwords="11"></p>
+    <br><br><br><br>
+    <p class="ezlorem ezlorem-Regulators" data-ezlang="fa" data-ezwords="1"></p>
+    <!-- <div class="Regulators-div">
+        <ul>
+            <li>
+                <div class="ez-reg-wordOptions">
+                    <a href="#!">
+                        <span>words :</span>
+                        <em class="showWrCount"> 1 </em>
+                    </a>
+                    <p>
+                        <span class="increaseWords">
+                            +
+                        </span>
+                        <span class="decreaseWords">
+                            -
+                        </span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="ez-reg-paragraphOptions">
+                    <a href="#!">
+                        <span>paragraph :</span>
+                        <em class="showPrCount"> 1 </em>
+                    </a>
+                    <p>
+                        <span class="increaseParagraph">
+                            +
+                        </span>
+                        <span class="decreaseParagraph">
+                            -
+                        </span>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="ez-reg-lettersOptions">
+                    <a href="#!">
+                        <span>letters :</span>
+                        <em class="showLtCount"> 1 </em>
+                    </a>
+                    <p>
+                        <span class="increaseLetter">
+                            +
+                        </span>
+                        <span class="decreaseLetter">
+                            -
+                        </span>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div> -->
+    <script src="../lib/lorem.js"></script>
+    <script>
+        ElSelect('.a').AddLorem({
+            asHTML: true,
+            HtmlTag: 'p',
+            HtmlClasses: 'text-muted'
+        });
+    </script>
+</body>
