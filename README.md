@@ -4,6 +4,8 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
+1.3.0(preview) : Added Lorem Generator , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
+
 1.2.0 : New Feature , generate lorem with html attrubites (documents added)
 
 1.1.6 : added .min file 
@@ -54,6 +56,18 @@ We can Generate lorem with Attributes . first we have to set **ezlorem** clas fo
 ```
 <p class="ezlorem" data-ezlang="fa" data-EzAsHtml="true" data-EzHtmlTag="" data-EzHtmlClasses=" " data-EzAddText=" " data-EzLetters=" " data-EzWords=" " data-EzParagraph=" "></p>
 ```
+
+New Feature in 1.3.0 : 
+
+Generautor in new feature in 1.3 that is real-time genrator for make easy to generate as desired . just with add **ezlorem-Regulators** class to our target element.
+```
+<link rel="stylesheet" href="../css/ezlorem-Regulators.css"> // first add css file
+<p class="ezlorem ezlorem-Regulators" data-ezlang="en" data-ezwords="25" data-EzAsHtml="true" data-EzHtmlTag="a"></p>
+```
+One of the remarkable points is that if the text is made with a tag, it will be placed in the same tag.
+
+After accessing the desired text, you can put unit value in the options :D.
+
 
 ****The Attributes And Options Are Optional But One Of Generate Units Should Be Fill (letters,words,paragraph)****
 
