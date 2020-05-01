@@ -2,9 +2,9 @@
     position: absolute;
     top: 100;
     left: 0;
-    display: inline-block;
+    display: block;
     width: 125px;
-    background: rgba(173, 173, 173, 1);
+    background: rgba(173, 173, 173, 0.4);
 }
 .Regulators-div ul {
     list-style: none;
