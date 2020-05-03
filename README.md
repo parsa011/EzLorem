@@ -98,4 +98,4 @@ __there is many options to use :__
 * _asHTML_     : true    - boolean - | true , false |   for generate as a html tag
 * _HtmlTag_    : 'span'  - string  - | Html TagName |   generate as this html Tag and default is **p** tag
 * _HtmlClasses_: 'class' - string  - |  Html class  |   add some html Class to the tag
-* _addedText_  : 'hello' - string  - |     any      |   if you want text start with something else use this one
+* _addText_    : 'hello' - string  - |     any      |   if you want text start with something else use this one
