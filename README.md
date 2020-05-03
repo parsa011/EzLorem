@@ -8,7 +8,7 @@ this is a lorem generator for designers . this library can generate for two lang
 
 1.3.2 : fixed some bugs
 
-1.3.0 (preview) : Added Lorem Generator , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
+1.3.0 : Added Lorem Generator (preview) , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
 
 1.2.0 : New Feature , generate lorem with html attrubites 
 
