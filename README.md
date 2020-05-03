@@ -4,11 +4,13 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.3.2 : fixed some bugs :D
+1.3.3 : added **AddGenerator()** (documents added)
+
+1.3.2 : fixed some bugs
 
 1.3.0 (preview) : Added Lorem Generator , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
 
-1.2.0 : New Feature , generate lorem with html attrubites (documents added)
+1.2.0 : New Feature , generate lorem with html attrubites 
 
 1.1.6 : added .min file 
 
@@ -70,6 +72,17 @@ One of the remarkable points is that if the text is made with a tag, it will be 
 
 After accessing the desired text, you can put unit value in the options :D.
 
+New Feature in 1.3.3 :
+
+Now we can have generate generaor with code : (with **AddGenerator()** methode)
+```
+var element =  ElSelect('.a').AddLorem();
+element.AddGenerator();
+
+// Or (another way to use :)
+
+ElSelect('.a').AddLorem().AddGenerator();
+```
 
 ****The Attributes And Options Are Optional But One Of Generate Units Should Be Fill (letters,words,paragraph)****
 

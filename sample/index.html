@@ -64,10 +64,7 @@
     </div> -->
     <script src="../lib/lorem.js"></script>
     <script>
-        ElSelect('.a').AddLorem({
-            asHTML: true,
-            HtmlTag: 'p',
-            HtmlClasses: 'text-muted'
-        });
+       var element =  ElSelect('.a').AddLorem();
+       element.AddGenerator();
     </script>
 </body>
