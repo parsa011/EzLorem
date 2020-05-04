@@ -4,6 +4,8 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
+1.3.6 : Some minor changes on code :D
+
 1.3.3 : added **AddGenerator()** (documents added)
 
 1.3.2 : fixed some bugs
