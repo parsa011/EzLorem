@@ -5,7 +5,7 @@
         * {
             margin: 0;
             padding: 0;
-            font-family:  sans-serif;
+            font-family: sans-serif;
         }
     </style>
     <link rel="stylesheet" href="../css/ezlorem-Regulators.css">
@@ -13,11 +13,7 @@
 </head>
 
 <body>
-    <p class="a">asfasd</p>
-    <hr>
-    <p class="ezlorem" data-ezlang="en" data-ezwords="50"></p>
-    <hr>
-    <p class="ezlorem ezlorem-Regulators" data-ezlang="fa" data-ezwords="2" data-EzAsHtml="" data-EzHtmlTag="a"></p>
+    <p class="a"></p>
     <!-- <div class="Regulators-div">
         <ul>
             <li>
@@ -64,8 +60,9 @@
     </div> -->
     <script src="../lib/lorem.js"></script>
     <script>
-       ElSelect('.a').AddLorem({
-         addText  : '<p class="test"> شسیبشسی'
-       });
+        var el= ElSelect('.a').AddLorem({
+            letters : 693
+        });
+        el.AddGenerator();
     </script>
 </body>
