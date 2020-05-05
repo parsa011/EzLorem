@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    <p class="a"></p>
+    <p class="ezlorem ezlorem-regulators ezlorem-regulator-dynamic"></p>
+    <br>
+    <p class="test"></p>
     <!-- <div class="Regulators-div">
         <ul>
             <li>
@@ -60,9 +62,7 @@
     </div> -->
     <script src="../lib/lorem.js"></script>
     <script>
-        var el= ElSelect('.a').AddLorem({
-            letters : 693
-        });
-        el.AddGenerator();
+      var testElement = ElSelect('.test').AddLorem();
+      testElement.AddGenerator(true);
     </script>
 </body>

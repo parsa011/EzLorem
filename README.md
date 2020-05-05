@@ -4,9 +4,11 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.3.6 : Some minor changes on code :D
+1.4.0 : now it's possible to change regulator position with cursor (documents added) :D
 
-1.3.3 : added **AddGenerator()** (documents added)
+1.3.6 : Some minor changes on code 
+
+1.3.3 : added **AddGenerator()**
 
 1.3.2 : fixed some bugs
 
@@ -86,6 +88,27 @@ element.AddGenerator();
 ElSelect('.a').AddLorem().AddGenerator();
 ```
 
+New Feature in 1.4.0 :
+
+it's possible to change regulator position with cursor.
+
+for add this feature to generators you have to use class or add with methode :
+
+we have to use **ezlorem-regulator-dynamic** class.
+
+or pass a parameter to **AddGeneraor(_moveable_ : true or false)** for certain 
+
+```
+<p class="ezlorem ezlorem-regulators ezlorem-regulator-dynamic"></p>
+
+// or
+
+<script>
+    var testElement = ElSelect('.test').AddLorem();
+    testElement.AddGenerator(true);
+</script>
+```
+ 
 ****The Attributes And Options Are Optional But One Of Generate Units Should Be Fill (letters,words,paragraph)****
 
 # Options
