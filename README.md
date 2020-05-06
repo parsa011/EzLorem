@@ -4,7 +4,9 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.4.0 : now it's possible to change regulator position with cursor (documents added) :D
+1.4.2 : highlight text when you are moving it's Generator. :D
+
+1.4.0 : now it's possible to change regulator position with cursor (documents added)
 
 1.3.6 : Some minor changes on code 
 
@@ -14,7 +16,7 @@ this is a lorem generator for designers . this library can generate for two lang
 
 1.3.0 : Added Lorem Generator (preview) , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
 
-1.2.0 : New Feature , generate lorem with html attrubites 
+1.2.0 : New Feature , generate lorem with html attributes 
 
 1.1.6 : added .min file 
 
@@ -67,7 +69,7 @@ We can Generate lorem with Attributes . first we have to set **ezlorem** clas fo
 
 New Feature in 1.3.0 : 
 
-Generautor in new feature in 1.3 that is real-time genrator for make easy to generate as desired . just with add **ezlorem-Regulators** class to our target element.
+Generator in new feature in 1.3 that is real-time generator for make easy to generate as desired . just with add **ezlorem-Regulators** class to our target element.
 ```
 <link rel="stylesheet" href="../css/ezlorem-Regulators.css"> // first add css file
 <p class="ezlorem ezlorem-Regulators" data-ezlang="en" data-ezwords="25" data-EzAsHtml="true" data-EzHtmlTag="a"></p>
@@ -78,7 +80,7 @@ After accessing the desired text, you can put unit value in the options :D.
 
 New Feature in 1.3.3 :
 
-Now we can have generate generaor with code : (with **AddGenerator()** methode)
+Now we can have generate Generator with code : (with **AddGenerator()** methode)
 ```
 var element =  ElSelect('.a').AddLorem();
 element.AddGenerator();
@@ -92,11 +94,11 @@ New Feature in 1.4.0 :
 
 it's possible to change regulator position with cursor.
 
-for add this feature to generators you have to use class or add with methode :
+for add this feature to generators you have to use class or add with method :
 
 we have to use **ezlorem-regulator-dynamic** class.
 
-or pass a parameter to **AddGeneraor(_moveable_ : true or false)** for certain 
+or pass a parameter to **AddGenerator(_moveable_ : true or false)** To determine that the Generator can move or not
 
 ```
 <p class="ezlorem ezlorem-regulators ezlorem-regulator-dynamic"></p>
