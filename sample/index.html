@@ -62,7 +62,10 @@
     </div> -->
     <script src="../lib/lorem.js"></script>
     <script>
-      var testElement = ElSelect('.test').AddLorem();
-      testElement.AddGenerator(true);
+       var testElement = ElSelect('.test').AddLorem({
+           asHTML : true,
+           HtmlTag:'a'
+       });
+       testElement.AddGenerator(true);
     </script>
 </body>
