@@ -6,7 +6,9 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.4.2 : highlight text when you are moving it's Generator. :D
+1.4.4 : added CDN :D
+
+1.4.2 : highlight text when you are moving it's Generator.
 
 1.4.0 : now it's possible to change regulator position with cursor (documents added)
 
