@@ -1,3 +1,5 @@
+[![](https://data.jsdelivr.com/v1/package/npm/ezlorem/badge)](https://www.jsdelivr.com/package/npm/ezlorem)
+
 # What is this
 
 this is a lorem generator for designers . this library can generate for two languages : Persian and English :D
@@ -23,6 +25,10 @@ this is a lorem generator for designers . this library can generate for two lang
 # Installation
 
 ` npm i EzLorem `
+
+# CDN
+
+` https://cdn.jsdelivr.net/npm/ezlorem/lib/lorem.min.js `
 
 # How to use
 
