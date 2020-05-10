@@ -32,6 +32,8 @@ this is a lorem generator for designers . this library can generate for two lang
 
 ` https://cdn.jsdelivr.net/npm/ezlorem/lib/lorem.min.js `
 
+` https://cdn.jsdelivr.net/npm/ezlorem/css/ezlorem-Regulators.css `
+
 # How to use
 
 first we need to add lorem.js file to our document
