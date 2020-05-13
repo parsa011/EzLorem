@@ -1,6 +1,6 @@
 {
   "name": "ezlorem",
-  "version": "1.4.61",
+  "version": "1.4.62",
   "description": "a package for generate lorem Ipsum for Persian and English Languages",
   "main": "lorem.js",
   "directories": {
