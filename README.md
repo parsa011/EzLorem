@@ -9,23 +9,11 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.4.4 : added CDN :D
+1.5.0 : some changes in code :D
+
+1.4.4 : added CDN
 
 1.4.2 : highlight text when you are moving it's Generator.
-
-1.4.0 : now it's possible to change regulator position with cursor (documents added)
-
-1.3.6 : Some minor changes on code 
-
-1.3.3 : added **AddGenerator()**
-
-1.3.2 : fixed some bugs
-
-1.3.0 : Added Lorem Generator (preview) , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
-
-1.2.0 : New Feature , generate lorem with html attributes 
-
-1.1.6 : added .min file 
 
 # Installation
 
@@ -139,3 +127,19 @@ __there is many options to use :__
 * _HtmlTag_    : 'span'  - string  - | Html TagName |   generate as this html Tag and default is **p** tag
 * _HtmlClasses_: 'class' - string  - |  Html class  |   add some html Class to the tag
 * _addText_    : 'hello' - string  - |     any      |   if you want text start with something else use this one
+
+# Versions
+
+1.4.0 : now it's possible to change regulator position with cursor (documents added)
+
+1.3.6 : Some minor changes on code 
+
+1.3.3 : added **AddGenerator()**
+
+1.3.2 : fixed some bugs
+
+1.3.0 : Added Lorem Generator (preview) , To get the desired text, it is very difficult to go to the code and change it and see the result. With the Generator, you can increase or decrease the text (real-time), and see the result, and take the options (units value).
+
+1.2.0 : New Feature , generate lorem with html attributes 
+
+1.1.6 : added .min file 
