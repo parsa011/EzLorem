@@ -9,7 +9,9 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.5.0 : some changes in code :D
+1.5.1 : Added more bug to fix later XD
+
+1.5.0 : some changes in code
 
 1.4.4 : added CDN
 
