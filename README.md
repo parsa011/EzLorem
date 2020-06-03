@@ -1,6 +1,6 @@
 
 [![](https://data.jsdelivr.com/v1/package/npm/ezlorem/badge)](https://www.jsdelivr.com/package/npm/ezlorem) 
-[![](https://img.shields.io/npm/dm/ezlorem?style=flat-square)](https://www.npmjs.com/package/ezlorem)
+[![](https://img.shields.io/npm/dy/ezlorem?style=flat-square)](https://www.npmjs.com/package/ezlorem)
 
 
 # What is this
