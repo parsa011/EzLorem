@@ -2,6 +2,7 @@
 [![](https://data.jsdelivr.com/v1/package/npm/ezlorem/badge)](https://www.jsdelivr.com/package/npm/ezlorem) 
 [![](https://img.shields.io/npm/dy/ezlorem?style=flat-square)](https://www.npmjs.com/package/ezlorem)
 
+**Please Send Me Your Feedback parsa32569@gmail.com . thanks a lot**
 
 # What is this
 
