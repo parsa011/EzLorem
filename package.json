@@ -1,6 +1,6 @@
 {
   "name": "ezlorem",
-  "version": "1.5.5",
+  "version": "1.5.7",
   "description": "a package for generate lorem Ipsum for Persian and English Languages",
   "main": "lorem.js",
   "directories": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/parsa011/EzLorem.git"
   },
-  "keywords": [
+"keywords": [
     "lorem",
     "lorem ipsum",
     "lorem generator",
