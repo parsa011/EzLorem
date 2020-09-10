@@ -10,7 +10,7 @@ this is a lorem generator for designers . this library can generate for two lang
 
 # What is new ?
 
-1.5.1 : Added more bug to fix later XD
+1.5.8 : Enhance Generators Move (with mouse)
 
 1.5.0 : some changes in code
 
