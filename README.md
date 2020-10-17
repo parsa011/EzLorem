@@ -57,7 +57,7 @@ ElSelect('p').AddLorem({
 ```
 *After select the element you can add your lorem text with **AddLorem()** and the options*
 
-Another Functions :
+There are two other Functions :
 ```
 ElSelect('h2').EnLorem(); //this will add a full lorem ipsum 'english language'
 
