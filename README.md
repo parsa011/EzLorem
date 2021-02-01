@@ -146,3 +146,11 @@ __there is many options to use :__
 1.2.0 : New Feature , generate lorem with html attributes 
 
 1.1.6 : added .min file 
+
+# Donation :D
+ 
+BitCoint : 
+1EDxhuzvczsVvjjPyweYaABkZU2nV6th5W
+
+Ethereum : 
+0x104d983bA869bCecd64E6699828B968818251D1f
