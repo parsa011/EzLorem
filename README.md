@@ -6,7 +6,7 @@
 
 # What is this
 
-this is a lorem generator for designers . this library can generate for two languages : Persian and English :D
+this is a lorem generator for designers . this library can generate lorem for two languages : Persian and English :D
 
 # What is new ?
 
@@ -16,7 +16,7 @@ this is a lorem generator for designers . this library can generate for two lang
 
 1.4.4 : added CDN
 
-1.4.2 : highlight text when you are moving it's Generator.
+1.4.2 : highlight text when you are moving that Generator.
 
 # Installation
 
@@ -66,7 +66,7 @@ ElSelect('.text').FaLorem(); //this will add a full lorem ipsum 'Persian languag
 
 New Feature in 1.2.0 : 
 
-We can Generate lorem with Attributes . first we have to set **ezlorem** clas for element then set the attributes.
+We can Generate lorem with Attributes . first we have to set **ezlorem** class for element then set the attributes.
 ```
 <p class="ezlorem" data-ezlang="fa" data-EzAsHtml="true" data-EzHtmlTag="" data-EzHtmlClasses=" " data-EzAddText=" " data-EzLetters=" " data-EzWords=" " data-EzParagraph=" "></p>
 ```
